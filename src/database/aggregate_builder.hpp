@@ -16,21 +16,24 @@
 namespace datadog::database {
     class aggregate_builder {
     public:
-        explicit aggregate_builder(const datadog::structs::timeframe& tf)
-        : tf(tf), scheduler(datadog::MAX_THREADS) {}
+        explicit aggregate_builder(const datadog::structs::timeframe &tf)
+                : tf(tf), scheduler(datadog::MAX_THREADS) {}
+
+        explicit aggregate_builder(const aggregate_builder &aggr)
+                : tf(aggr.tf), scheduler(datadog::MAX_THREADS) {}
 
         void run() {
-            scheduler.every(std::chrono::seconds(tf.interval), [&] () {
+            scheduler.every(std::chrono::seconds(tf.interval), [&]() {
                 std::scoped_lock lock(mtx);
 
-                for (auto& elem : db) {
+                for (auto &elem : db) {
                     aggregates[elem.first].emplace_back(datadog::structs::aggregate{elem.second});
                     elem.second.clear();
                 }
             });
         }
 
-        void add(const datadog::structs::curl_response& response) {
+        void add(const datadog::structs::curl_response &response) {
             std::scoped_lock lock(mtx);
             db[response.website_name].push_back(response);
         }

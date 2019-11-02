@@ -11,9 +11,17 @@ namespace datadog::structs {
     struct timeframe {
         uint64_t interval;
 
-        bool operator<(const timeframe& lhs) const {
+        bool operator<(const timeframe &lhs) const {
             return lhs.interval < interval;
         }
+    };
+
+    struct timeframes {
+        timeframe frequency;
+        timeframe aggregate;
+
+        timeframes(timeframe tf1, timeframe tf2)
+                : frequency(tf1), aggregate(tf2) {}
     };
 }
 

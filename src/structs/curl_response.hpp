@@ -7,15 +7,26 @@
 
 #include <cstdint>
 #include <optional>
+#include <cpr/cpr.h>
+#include <ctime>
 
 namespace datadog::structs {
     struct curl_response {
         bool available;
         std::string website_name;
-        std::optional<uint64_t> response_time;
+        std::optional<double> response_time;
         std::optional<uint64_t> response_code;
         uint64_t timestamp;
-        // TODO more metrics
+
+        curl_response(const cpr::Response& res)
+            : available(res.status_code < 400)
+            , website_name(res.url)
+            , response_time(res.elapsed)
+            , response_code(res.status_code)
+            , timestamp(std::time(0)) {}
+
+        curl_response(uint64_t timestamp)
+            : timestamp(timestamp) {}
     };
 }
 

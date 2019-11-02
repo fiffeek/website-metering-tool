@@ -7697,3 +7697,243 @@ make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CM
 
 Source file was:
 int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71acd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71acd.dir/build.make CMakeFiles/cmTC_71acd.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71acd.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_71acd.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_71acd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71acd.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_71acd.dir/src.c.o  -o cmTC_71acd 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c152/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c152.dir/build.make CMakeFiles/cmTC_3c152.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c152.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_3c152.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_3c152
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c152.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_3c152.dir/src.c.o  -o cmTC_3c152 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf9bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf9bf.dir/build.make CMakeFiles/cmTC_bf9bf.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf9bf.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_bf9bf.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_bf9bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf9bf.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_bf9bf.dir/src.c.o  -o cmTC_bf9bf 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa0f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa0f0.dir/build.make CMakeFiles/cmTC_aa0f0.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa0f0.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_aa0f0.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_aa0f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa0f0.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_aa0f0.dir/src.c.o  -o cmTC_aa0f0 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6184/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e6184.dir/build.make CMakeFiles/cmTC_e6184.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6184.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_e6184.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_e6184
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6184.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_e6184.dir/src.c.o  -o cmTC_e6184 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36570/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36570.dir/build.make CMakeFiles/cmTC_36570.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36570.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_36570.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_36570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36570.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_36570.dir/src.c.o  -o cmTC_36570 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8703b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_8703b.dir/build.make CMakeFiles/cmTC_8703b.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8703b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_8703b.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8703b
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8703b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_8703b.dir/src.c.o  -o cmTC_8703b 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0623b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0623b.dir/build.make CMakeFiles/cmTC_0623b.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0623b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_0623b.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_0623b
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0623b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_0623b.dir/src.c.o  -o cmTC_0623b 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9174/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9174.dir/build.make CMakeFiles/cmTC_d9174.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9174.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_d9174.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d9174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9174.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_d9174.dir/src.c.o  -o cmTC_d9174 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_096c0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_096c0.dir/build.make CMakeFiles/cmTC_096c0.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_096c0.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_096c0.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_096c0
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_096c0.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_096c0.dir/src.c.o  -o cmTC_096c0 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ec9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ec9f.dir/build.make CMakeFiles/cmTC_4ec9f.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ec9f.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_4ec9f.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4ec9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec9f.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_4ec9f.dir/src.c.o  -o cmTC_4ec9f 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9e8a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f9e8a.dir/build.make CMakeFiles/cmTC_f9e8a.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9e8a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_f9e8a.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_f9e8a
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9e8a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_f9e8a.dir/src.c.o  -o cmTC_f9e8a 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22d1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22d1e.dir/build.make CMakeFiles/cmTC_22d1e.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22d1e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_22d1e.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_22d1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22d1e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_22d1e.dir/src.c.o  -o cmTC_22d1e 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bac57/fast 
+/usr/bin/make -f CMakeFiles/cmTC_bac57.dir/build.make CMakeFiles/cmTC_bac57.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bac57.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_bac57.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_bac57
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bac57.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_bac57.dir/src.c.o  -o cmTC_bac57 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d44a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d44a0.dir/build.make CMakeFiles/cmTC_d44a0.dir/build
+make[1]: Entering directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d44a0.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_d44a0.dir/src.c.o   -c /home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d44a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d44a0.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_d44a0.dir/src.c.o  -o cmTC_d44a0 
+make[1]: Leaving directory '/home/fiffeek/Desktop/website-metering/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

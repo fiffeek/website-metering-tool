@@ -1516,6 +1516,9 @@
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src">
 			<Option target="website_metering"/>
 		</Unit>
+		<Unit filename="/home/fiffeek/Desktop/website-metering/src/database/logger.hpp">
+			<Option target="website_metering"/>
+		</Unit>
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/cpr/auth.cpp">
 			<Option target="cpr"/>
 		</Unit>

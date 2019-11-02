@@ -3,7 +3,14 @@
 -- Found the following Boost libraries:
 --   program_options
 --   filesystem
+--   log
 --   system
+--   date_time
+--   log_setup
+--   thread
+--   regex
+--   chrono
+--   atomic
 -- C++ Requests CMake Options
 -- =======================================================
 --   USE_SYSTEM_CURL: OFF
@@ -22,6 +29,7 @@ CMake Warning at src/dependencies/cpr/opt/curl/CMakeLists.txt:50 (message):
 -- Performing Test OPT-Wstrict-aliasing=3
 -- Performing Test OPT-Wstrict-aliasing=3 - Success
 Found *nroff option: -- -man
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.0.2n")  
 -- Could NOT find LibSSH2 (missing: LIBSSH2_INCLUDE_DIR LIBSSH2_LIBRARY) 
 -- Enabled features: OpenSSL IPv6 unix-sockets libz AsynchDNS IDN NTLM
 -- Enabled protocols: DICT FILE FTP FTPS GOPHER HTTP HTTPS IMAP IMAPS POP3 POP3S RTSP SMTP SMTPS TELNET TFTP
