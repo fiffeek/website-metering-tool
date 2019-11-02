@@ -1,0 +1,9 @@
+/home/fiffeek/Downloads/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fiffeek/CLionProjects/website-metering
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   program_options
+--   filesystem
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fiffeek/CLionProjects/website-metering

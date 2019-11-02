@@ -1,0 +1,45 @@
+/home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/fiffeek/Desktop/website-metering
+-- Boost version: 1.68.0
+-- Found the following Boost libraries:
+--   program_options
+--   filesystem
+--   system
+-- C++ Requests CMake Options
+-- =======================================================
+--   USE_SYSTEM_CURL: OFF
+--   BUILD_CPR_TESTS: ON
+--   GENERATE_COVERAGE: OFF
+--   CPR_CURL_NOSIGNAL: OFF
+--   USE_SYSTEM_GTEST: OFF
+--   CMAKE_USE_OPENSSL: ON
+-- =======================================================
+-- Not using system Curl, using built-in curl project instead.
+CMake Warning at src/dependencies/cpr/opt/curl/CMakeLists.txt:50 (message):
+  the curl cmake build system is poorly maintained.  Be aware
+
+
+-- curl version=[7.56.0-DEV]
+-- Performing Test OPT-Wstrict-aliasing=3
+-- Performing Test OPT-Wstrict-aliasing=3 - Success
+Found *nroff option: -- -man
+-- Could NOT find LibSSH2 (missing: LIBSSH2_INCLUDE_DIR LIBSSH2_LIBRARY) 
+-- Enabled features: OpenSSL IPv6 unix-sockets libz AsynchDNS IDN NTLM
+-- Enabled protocols: DICT FILE FTP FTPS GOPHER HTTP HTTPS IMAP IMAPS POP3 POP3S RTSP SMTP SMTPS TELNET TFTP
+-- Set CURL_FOUND to TRUE.
+-- Set CURL_LIBRARIES to libcurl.
+-- Set CURL_INCLUDE_DIRS to /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include;/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include/curl.
+-- Not using system gtest, using built-in googletest project instead.
+-- Set GTEST_FOUND to TRUE.
+-- Set GTEST_LIBRARIES to gtest.
+-- Set GTEST_MAIN_LIBRARIES to gtest_main.
+-- Set GTEST_BOTH_LIBRARIES to gtest;gtest_main.
+-- Set GTEST_INCLUDE_DIRS to /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/googletest/include.
+-- Building mongoose project for test support.
+-- Set MONGOOSE_FOUND to TRUE.
+-- Set MONGOOSE_LIBRARIES to mongoose.
+-- Set MONGOOSE_INCLUDE_DIRS to /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/mongoose.
+-- Using CURL_INCLUDE_DIRS: /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include;/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include/curl.
+-- Using CURL_LIBRARIES: libcurl.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fiffeek/Desktop/website-metering

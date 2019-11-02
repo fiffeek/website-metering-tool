@@ -1,0 +1,6 @@
+[submodule "src/dependencies/cpr_sub"]
+	path = src/dependencies/cpr_sub
+	url = git@github.com:whoshuu/cpr.git
+[submodule "src/dependencies/cpr"]
+	path = src/dependencies/cpr
+	url = git@github.com:whoshuu/cpr.git
