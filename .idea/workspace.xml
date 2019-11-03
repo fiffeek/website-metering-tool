@@ -2,34 +2,34 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="website_metering" targetName="website_metering" />
-      <config projectName="website_metering" targetName="html" />
-      <config projectName="website_metering" targetName="patch_tests" />
-      <config projectName="website_metering" targetName="options_tests" />
-      <config projectName="website_metering" targetName="uninstall" />
-      <config projectName="website_metering" targetName="session_tests" />
-      <config projectName="website_metering" targetName="pdf" />
-      <config projectName="website_metering" targetName="alternating_tests" />
-      <config projectName="website_metering" targetName="util_tests" />
-      <config projectName="website_metering" targetName="mongoose" />
-      <config projectName="website_metering" targetName="async_tests" />
-      <config projectName="website_metering" targetName="cpr" />
-      <config projectName="website_metering" targetName="error_tests" />
-      <config projectName="website_metering" targetName="opts-html" />
-      <config projectName="website_metering" targetName="test_server" />
-      <config projectName="website_metering" targetName="put_tests" />
-      <config projectName="website_metering" targetName="get_tests" />
-      <config projectName="website_metering" targetName="gtest" />
-      <config projectName="website_metering" targetName="proxy_tests" />
-      <config projectName="website_metering" targetName="gtest_main" />
-      <config projectName="website_metering" targetName="post_tests" />
-      <config projectName="website_metering" targetName="raw_body_tests" />
-      <config projectName="website_metering" targetName="libcurl" />
-      <config projectName="website_metering" targetName="callback_tests" />
-      <config projectName="website_metering" targetName="delete_tests" />
-      <config projectName="website_metering" targetName="opts-pdf" />
-      <config projectName="website_metering" targetName="head_tests" />
       <config projectName="website_metering" targetName="generate-curl.1" />
+      <config projectName="website_metering" targetName="session_tests" />
+      <config projectName="website_metering" targetName="put_tests" />
+      <config projectName="website_metering" targetName="options_tests" />
+      <config projectName="website_metering" targetName="proxy_tests" />
+      <config projectName="website_metering" targetName="html" />
+      <config projectName="website_metering" targetName="opts-pdf" />
+      <config projectName="website_metering" targetName="post_tests" />
+      <config projectName="website_metering" targetName="uninstall" />
+      <config projectName="website_metering" targetName="async_tests" />
+      <config projectName="website_metering" targetName="callback_tests" />
+      <config projectName="website_metering" targetName="get_tests" />
+      <config projectName="website_metering" targetName="libcurl" />
+      <config projectName="website_metering" targetName="test_server" />
+      <config projectName="website_metering" targetName="website_metering" />
+      <config projectName="website_metering" targetName="head_tests" />
+      <config projectName="website_metering" targetName="util_tests" />
+      <config projectName="website_metering" targetName="patch_tests" />
+      <config projectName="website_metering" targetName="pdf" />
+      <config projectName="website_metering" targetName="opts-html" />
+      <config projectName="website_metering" targetName="delete_tests" />
+      <config projectName="website_metering" targetName="mongoose" />
+      <config projectName="website_metering" targetName="gtest" />
+      <config projectName="website_metering" targetName="alternating_tests" />
+      <config projectName="website_metering" targetName="error_tests" />
+      <config projectName="website_metering" targetName="gtest_main" />
+      <config projectName="website_metering" targetName="cpr" />
+      <config projectName="website_metering" targetName="raw_body_tests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -39,31 +39,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a9c0aa-e279-4fde-b0c2-66b3eb26d5e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/website_metering.dir/src/server.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/const.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/const.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/aggregate_builder.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/aggregate_builder.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/database.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/database.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/logger.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/logger.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dependencies/cpr" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependencies/cpr/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reporter/reporter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporters/reporter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/include/gtest/gtest-spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/include/gtest/gtest-spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/include/gtest/gtest-test-part.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/include/gtest/gtest-test-part.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/src/gtest-internal-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/src/gtest-internal-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/src/gtest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/cpr/opt/googletest/src/gtest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reporters/reporter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/reporter.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/structs/agregate.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/structs/agregate.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/structs/curl_response.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/structs/curl_response.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/structs/timeframe.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/structs/timeframe.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_metering" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_metering.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/website_metering.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website_metering" beforeDir="false" afterPath="$PROJECT_DIR$/website_metering" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -92,19 +97,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            <state relative-caret-position="375">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding>
                 <element signature="e#115#158#0" expanded="true" />
               </folding>
@@ -113,22 +109,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/database.hpp">
+        <entry file="file://$PROJECT_DIR$/src/const.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <element signature="e#119#136#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/aggregate_builder.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+              <folding>
+                <element signature="e#137#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/database/logger.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="81">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="e#115#132#0" expanded="true" />
               </folding>
@@ -137,19 +142,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+        <entry file="file://$PROJECT_DIR$/src/parsers/input_parser.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1471">
-              <caret line="313" column="25" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="25" />
+            <state relative-caret-position="84">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="e#127#144#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/reporter.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="84">
+              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+              <folding>
+                <element signature="e#119#154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structs/agregate.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+            <state relative-caret-position="501">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="e#119#137#0" expanded="true" />
               </folding>
@@ -167,10 +178,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/include/cpr/status_codes.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="77" column="25" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structs/timeframe.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="207">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="e#121#139#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,8 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structs/curl_response.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="316">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#129#147#0" expanded="true" />
               </folding>
@@ -198,6 +221,10 @@
       <find>server</find>
       <find>USE_SYSTEM_CURL</find>
       <find>Scheduler</find>
+      <find>tests</find>
+      <find>looking</find>
+      <find>cout</find>
+      <find>&lt; 400</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -215,35 +242,36 @@
         <option value="$PROJECT_DIR$/server/server.cpp" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/file.hpp" />
-        <option value="$PROJECT_DIR$/src/const.hpp" />
         <option value="$PROJECT_DIR$/src/messages/server_init_message.hpp" />
         <option value="$PROJECT_DIR$/src/dependencies/Scheduler/Scheduler.h" />
         <option value="$PROJECT_DIR$/src/parsers/input_parser.hpp" />
         <option value="$PROJECT_DIR$/src/structs/cron_website.hpp" />
         <option value="$PROJECT_DIR$/src/dependencies/cpr/include/cpr/auth.h" />
-        <option value="$PROJECT_DIR$/src/dependencies/cpr/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/src/helpers/time_helper.hpp" />
         <option value="$PROJECT_DIR$/src/reporter/reporter.hpp" />
         <option value="$PROJECT_DIR$/src/server.cpp" />
-        <option value="$PROJECT_DIR$/src/database/aggregate_builder.hpp" />
-        <option value="$PROJECT_DIR$/src/structs/curl_response.hpp" />
         <option value="$PROJECT_DIR$/src/reporters/logger.hpp" />
-        <option value="$PROJECT_DIR$/src/structs/timeframe.hpp" />
-        <option value="$PROJECT_DIR$/src/database/database.hpp" />
-        <option value="$PROJECT_DIR$/src/server.hpp" />
-        <option value="$PROJECT_DIR$/src/structs/agregate.hpp" />
-        <option value="$PROJECT_DIR$/src/database/logger.hpp" />
+        <option value="$PROJECT_DIR$/src/dependencies/cpr/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/structs/timeframe.hpp" />
+        <option value="$PROJECT_DIR$/src/structs/agregate.hpp" />
+        <option value="$PROJECT_DIR$/src/database/aggregate_builder.hpp" />
+        <option value="$PROJECT_DIR$/src/database/database.hpp" />
+        <option value="$PROJECT_DIR$/src/structs/curl_response.hpp" />
+        <option value="$PROJECT_DIR$/src/server.hpp" />
+        <option value="$PROJECT_DIR$/src/const.hpp" />
+        <option value="$PROJECT_DIR$/src/database/reporter.hpp" />
+        <option value="$PROJECT_DIR$/src/database/logger.hpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1965" />
-    <option name="y" value="25" />
-    <option name="width" value="1875" />
-    <option name="height" value="1055" />
+    <option name="x" value="279" />
+    <option name="y" value="156" />
+    <option name="width" value="1407" />
+    <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +302,7 @@
               <item name="website_metering" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-metering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reporters" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website_metering" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +314,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,9 +321,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/database" />
       <recent name="$PROJECT_DIR$/src/dependencies/cpr/include/cpr" />
       <recent name="$PROJECT_DIR$/src/dependencies/cpr/include" />
     </key>
@@ -512,17 +542,19 @@
       <workItem from="1572364434555" duration="6763000" />
       <workItem from="1572381330874" duration="5768000" />
       <workItem from="1572700951191" duration="6881000" />
+      <workItem from="1572782337145" duration="4235000" />
+      <workItem from="1572796200162" duration="4800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19412000" />
+    <option name="totallyTimeSpent" value="28447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1965" y="25" width="1875" height="1055" extended-state="6" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25533077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26079825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -536,14 +568,14 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3289183" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3289183" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3290735" />
-      <window_info anchor="right" id="make" />
-      <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
+      <window_info anchor="right" id="Key Promoter X" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,16 +610,6 @@
     <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/include/cpr/cpr.h" />
     <entry file="file://$PROJECT_DIR$/src/dependencies/Scheduler/Cron.h" />
     <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/include/cpr/auth.h" />
-    <entry file="file://$PROJECT_DIR$/src/parsers/input_parser.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding>
-            <element signature="e#127#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/stdio.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14145">
@@ -621,7 +643,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/format-check.sh" />
     <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/opt/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/src/database/aggregate_builder.cpp" />
     <entry file="file://$PROJECT_DIR$/src/helpers/time_helper.hpp">
@@ -634,24 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/const.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structs/cron_website.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -662,101 +669,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structs/curl_response.hpp">
+    <entry file="file://$PROJECT_DIR$/src/reporters/logger.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="e#129#147#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="903">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reporters/reporter.hpp">
+    <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="284">
+          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reporters/logger.hpp">
+    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#115#132#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6573">
+          <caret line="313" column="25" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structs/timeframe.hpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding>
-            <element signature="e#115#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/aggregate_builder.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding>
-            <element signature="e#137#154#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/database.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="354">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
           <folding>
             <element signature="e#119#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/input_parser.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#127#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structs/timeframe.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#121#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/structs/agregate.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+        <state relative-caret-position="501">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <folding>
             <element signature="e#119#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+    <entry file="file://$PROJECT_DIR$/src/dependencies/cpr/include/cpr/status_codes.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1471">
-          <caret line="313" column="25" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structs/curl_response.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#129#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/aggregate_builder.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <element signature="e#137#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/const.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#115#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/reporter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+          <folding>
+            <element signature="e#119#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/logger.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="81">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="e#115#132#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>

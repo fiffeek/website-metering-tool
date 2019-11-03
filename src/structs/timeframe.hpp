@@ -6,6 +6,7 @@
 #define WEBSITE_METERING_TIMEFRAME_HPP
 
 #include <cstdint>
+#include "agregate.hpp"
 
 namespace datadog::structs {
     struct timeframe {
@@ -22,6 +23,11 @@ namespace datadog::structs {
 
         timeframes(timeframe tf1, timeframe tf2)
                 : frequency(tf1), aggregate(tf2) {}
+    };
+
+    struct timeframe_aggr {
+        timeframe tf;
+        std::vector<aggregate> aggr;
     };
 }
 

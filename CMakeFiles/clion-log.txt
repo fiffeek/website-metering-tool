@@ -1,16 +1,16 @@
 /home/fiffeek/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/fiffeek/Desktop/website-metering
 -- Boost version: 1.68.0
 -- Found the following Boost libraries:
+--   thread
 --   program_options
 --   filesystem
 --   log
+--   chrono
 --   system
 --   date_time
---   log_setup
---   thread
---   regex
---   chrono
 --   atomic
+--   log_setup
+--   regex
 -- C++ Requests CMake Options
 -- =======================================================
 --   USE_SYSTEM_CURL: OFF

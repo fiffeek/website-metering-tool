@@ -19,7 +19,7 @@ namespace datadog::structs {
         uint64_t timestamp;
 
         curl_response(const cpr::Response& res)
-            : available(res.status_code < 400)
+            : available(cpr::status::is_success(res.status_code))
             , website_name(res.url)
             , response_time(res.elapsed)
             , response_code(res.status_code)
