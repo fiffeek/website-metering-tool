@@ -18,7 +18,7 @@ namespace datadog::database {
     public:
         alerting_reporter(
                 const datadog::structs::timeframe& aggr_timeframe,
-                datadog::database::database* db)
+                datadog::database::aggr_info* db)
             : timeframe(datadog::structs::timeframe{aggr_timeframe.interval + datadog::REPORT_OFFSET})
             , scheduler(datadog::MAX_THREADS)
             , db(db)
@@ -30,26 +30,30 @@ namespace datadog::database {
 
         void init() {
             scheduler.every(std::chrono::seconds(timeframe.interval), [&] () {
-                for (auto& website : db->get_websites()) {
-                    auto rep = db->get_last(website, aggr_timeframe);
+                traverse_websites();
+            });
+        }
 
-                    if (rep.has_value()) {
-                        if (rep.value().availability < datadog::AVAILABILITY_LIMIT && down.count(website) == 0) {
-                            logger.alert(website, rep.value());
-                            down.insert(website);
-                        } else if (rep.value().availability >= datadog::AVAILABILITY_LIMIT && down.count(website) == 1) {
-                            logger.alert(website, rep.value(), false);
-                            down.erase(website);
-                        }
+        void traverse_websites() {
+            for (auto& website : db->get_websites()) {
+                auto rep = db->get_last(website, aggr_timeframe);
+
+                if (rep.has_value()) {
+                    if (rep.value().availability < datadog::AVAILABILITY_LIMIT && down.count(website) == 0) {
+                        logger.alert(website, rep.value());
+                        down.insert(website);
+                    } else if (rep.value().availability >= datadog::AVAILABILITY_LIMIT && down.count(website) == 1) {
+                        logger.alert(website, rep.value(), false);
+                        down.erase(website);
                     }
                 }
-            });
+            }
         }
 
     private:
         datadog::structs::timeframe timeframe;
         Bosma::Scheduler scheduler;
-        datadog::database::database* db;
+        datadog::database::aggr_info* db;
         datadog::database::logger logger;
         datadog::structs::timeframe aggr_timeframe;
         std::unordered_set<std::string> down;

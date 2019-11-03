@@ -105,8 +105,8 @@ namespace datadog::database {
             std::scoped_lock lock(mtx);
             std::string is_down = down ? "down" : "up";
 
-            std::cout << "Website [" << website << "] is " << is_down << ". availability=[" << aggr.availability <<
-            "] ,time=[" << std::time(nullptr) << "]" << std::endl;
+            std::cout << "Website [" << website << "] is " << is_down << ". availability=[" << std::to_string(aggr
+            .availability) << "] ,time=[" << std::time(nullptr) << "]" << std::endl;
         }
 
     private:

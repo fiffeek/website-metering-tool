@@ -1,10 +1,11 @@
+/home/fiffeek/Desktop/website-metering/CMakeFiles/install/local.dir
 /home/fiffeek/Desktop/website-metering/CMakeFiles/install/strip.dir
-/home/fiffeek/Desktop/website-metering/CMakeFiles/edit_cache.dir
+/home/fiffeek/Desktop/website-metering/CMakeFiles/alerting_test.dir
 /home/fiffeek/Desktop/website-metering/CMakeFiles/website_metering.dir
 /home/fiffeek/Desktop/website-metering/CMakeFiles/install.dir
+/home/fiffeek/Desktop/website-metering/CMakeFiles/edit_cache.dir
 /home/fiffeek/Desktop/website-metering/CMakeFiles/rebuild_cache.dir
 /home/fiffeek/Desktop/website-metering/CMakeFiles/list_install_components.dir
-/home/fiffeek/Desktop/website-metering/CMakeFiles/install/local.dir
 /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/CMakeFiles/install/strip.dir
 /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/CMakeFiles/install.dir
 /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/CMakeFiles/install/local.dir
@@ -104,3 +105,9 @@
 /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/test/CMakeFiles/util_tests.dir
 /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/test/CMakeFiles/install.dir
 /home/fiffeek/Desktop/website-metering/src/dependencies/cpr/test/CMakeFiles/error_tests.dir
+/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeFiles/install/strip.dir
+/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeFiles/edit_cache.dir
+/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeFiles/rebuild_cache.dir
+/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeFiles/list_install_components.dir
+/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeFiles/install/local.dir
+/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeFiles/install.dir

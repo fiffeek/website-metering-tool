@@ -23,6 +23,10 @@ unordered_map
 /home/fiffeek/Desktop/website-metering/src/helpers/time_helper.hpp
 ../structs/agregate.hpp
 /home/fiffeek/Desktop/website-metering/src/structs/agregate.hpp
+../dependencies/Scheduler/Scheduler.h
+/home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/Scheduler.h
+../const.hpp
+/home/fiffeek/Desktop/website-metering/src/const.hpp
 
 /home/fiffeek/Desktop/website-metering/src/database/database.hpp
 vector

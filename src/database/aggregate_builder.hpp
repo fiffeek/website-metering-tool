@@ -12,6 +12,8 @@
 #include "../structs/timeframe.hpp"
 #include "../helpers/time_helper.hpp"
 #include "../structs/agregate.hpp"
+#include "../dependencies/Scheduler/Scheduler.h"
+#include "../const.hpp"
 
 namespace datadog::database {
     class aggregate_builder {

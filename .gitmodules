@@ -4,3 +4,9 @@
 [submodule "src/dependencies/cpr"]
 	path = src/dependencies/cpr
 	url = git@github.com:whoshuu/cpr.git
+[submodule "src/dependencies/Catch2"]
+	path = src/dependencies/Catch2
+	url = https://github.com/catchorg/Catch2
+[submodule "src/dependencies/FakeIt"]
+	path = src/dependencies/FakeIt
+	url = https://github.com/eranpeer/FakeIt.git

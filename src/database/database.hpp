@@ -11,7 +11,14 @@
 #include "aggregate_builder.hpp"
 
 namespace datadog::database {
-    class database {
+    struct aggr_info {
+        virtual std::vector<std::string> get_websites() = 0;
+        virtual std::optional<datadog::structs::aggregate> get_last(
+                std::string website,
+                const datadog::structs::timeframe& tf) = 0;
+    };
+
+    class database : public aggr_info {
     public:
         void register_timeframe(const datadog::structs::timeframe& tf) {
             aggregates.emplace_back(aggregate_builder{tf});

@@ -5,13 +5,23 @@
 		<Option title="website_metering"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\dependencies\;CMake Files\src\dependencies\cpr\;CMake Files\src\dependencies\cpr\opt\;CMake Files\src\dependencies\cpr\opt\curl\;CMake Files\src\dependencies\cpr\opt\curl\CMake\;CMake Files\src\dependencies\cpr\opt\curl\docs\;CMake Files\src\dependencies\cpr\opt\curl\docs\libcurl\;CMake Files\src\dependencies\cpr\opt\curl\docs\libcurl\opts\;CMake Files\src\dependencies\cpr\opt\curl\docs\cmdline-opts\;CMake Files\src\dependencies\cpr\opt\curl\lib\;CMake Files\src\dependencies\cpr\opt\googletest\;CMake Files\src\dependencies\cpr\opt\googletest\cmake\;CMake Files\src\dependencies\cpr\opt\mongoose\;CMake Files\src\dependencies\cpr\cpr\;CMake Files\src\dependencies\cpr\test\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\dependencies\;CMake Files\src\dependencies\cpr\;CMake Files\src\dependencies\cpr\opt\;CMake Files\src\dependencies\cpr\opt\curl\;CMake Files\src\dependencies\cpr\opt\curl\CMake\;CMake Files\src\dependencies\cpr\opt\curl\docs\;CMake Files\src\dependencies\cpr\opt\curl\docs\libcurl\;CMake Files\src\dependencies\cpr\opt\curl\docs\libcurl\opts\;CMake Files\src\dependencies\cpr\opt\curl\docs\cmdline-opts\;CMake Files\src\dependencies\cpr\opt\curl\lib\;CMake Files\src\dependencies\cpr\opt\googletest\;CMake Files\src\dependencies\cpr\opt\googletest\cmake\;CMake Files\src\dependencies\cpr\opt\mongoose\;CMake Files\src\dependencies\cpr\cpr\;CMake Files\src\dependencies\cpr\test\;CMake Files\src\dependencies\Catch2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 install/local"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
@@ -27,11 +37,59 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="alerting_test">
+				<Option output="/home/fiffeek/Desktop/website-metering/alerting_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fiffeek/boost_1_68_0"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/include"/>
+					<Add directory="/src"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include/curl"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/single_include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 alerting_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alerting_test/fast">
+				<Option output="/home/fiffeek/Desktop/website-metering/alerting_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fiffeek/boost_1_68_0"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/include"/>
+					<Add directory="/src"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/opt/curl/include/curl"/>
+					<Add directory="/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/single_include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 alerting_test/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
@@ -103,6 +161,16 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
 				<Option type="4"/>
@@ -118,16 +186,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option working_dir="/home/fiffeek/Desktop/website-metering"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 install/local"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fiffeek/Desktop/website-metering/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1511,12 +1569,15 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/fiffeek/Desktop/website-metering">
+			<Option target="alerting_test"/>
 			<Option target="website_metering"/>
 		</Unit>
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src">
+			<Option target="alerting_test"/>
 			<Option target="website_metering"/>
 		</Unit>
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src/database/logger.hpp">
+			<Option target="alerting_test"/>
 			<Option target="website_metering"/>
 		</Unit>
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/cpr/auth.cpp">
@@ -2416,6 +2477,9 @@
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src/server.hpp">
 			<Option target="website_metering"/>
 		</Unit>
+		<Unit filename="/home/fiffeek/Desktop/website-metering/tests/alerting_test.cpp">
+			<Option target="alerting_test"/>
+		</Unit>
 		<Unit filename="/home/fiffeek/Desktop/website-metering/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -2496,6 +2560,9 @@
 		</Unit>
 		<Unit filename="/home/fiffeek/Desktop/website-metering/src/dependencies/cpr/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\dependencies\cpr\test\"/>
+		</Unit>
+		<Unit filename="/home/fiffeek/Desktop/website-metering/src/dependencies/Catch2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\dependencies\Catch2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

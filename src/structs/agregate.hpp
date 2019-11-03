@@ -20,6 +20,8 @@ namespace datadog::structs {
         double min_response_time;
         std::unordered_map<uint64_t, uint64_t> codes_count;
         uint64_t timestamp;
+        explicit aggregate(double availability)
+        : availability(availability) {}
 
         aggregate(uint64_t timestamp)
         : timestamp(timestamp) {}
