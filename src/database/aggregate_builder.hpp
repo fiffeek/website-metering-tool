@@ -10,8 +10,7 @@
 #include <unordered_map>
 #include "../structs/curl_response.hpp"
 #include "../structs/timeframe.hpp"
-#include "../helpers/time_helper.hpp"
-#include "../structs/agregate.hpp"
+#include "../structs/aggregate.hpp"
 #include "../dependencies/Scheduler/Scheduler.h"
 #include "../const.hpp"
 

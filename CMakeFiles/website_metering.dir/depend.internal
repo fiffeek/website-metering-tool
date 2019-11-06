@@ -12,12 +12,11 @@ CMakeFiles/website_metering.dir/src/server.cpp.o
  /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/InterruptableSleep.h
  /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/Scheduler.h
  /home/fiffeek/Desktop/website-metering/src/file.hpp
- /home/fiffeek/Desktop/website-metering/src/helpers/time_helper.hpp
  /home/fiffeek/Desktop/website-metering/src/messages/server_init_message.hpp
  /home/fiffeek/Desktop/website-metering/src/parsers/input_parser.hpp
  /home/fiffeek/Desktop/website-metering/src/server.cpp
  /home/fiffeek/Desktop/website-metering/src/server.hpp
- /home/fiffeek/Desktop/website-metering/src/structs/agregate.hpp
+ /home/fiffeek/Desktop/website-metering/src/structs/aggregate.hpp
  /home/fiffeek/Desktop/website-metering/src/structs/cron_website.hpp
  /home/fiffeek/Desktop/website-metering/src/structs/curl_response.hpp
  /home/fiffeek/Desktop/website-metering/src/structs/timeframe.hpp

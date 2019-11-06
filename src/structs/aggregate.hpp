@@ -2,8 +2,8 @@
 // Created by fiffeek on 29/10/19.
 //
 
-#ifndef WEBSITE_METERING_AGREGATE_HPP
-#define WEBSITE_METERING_AGREGATE_HPP
+#ifndef WEBSITE_METERING_AGGREGATE_HPP
+#define WEBSITE_METERING_AGGREGATE_HPP
 
 #include <cstdint>
 #include <unordered_map>
@@ -81,4 +81,4 @@ namespace datadog::structs {
     };
 }
 
-#endif //WEBSITE_METERING_AGREGATE_HPP
+#endif //WEBSITE_METERING_AGGREGATE_HPP

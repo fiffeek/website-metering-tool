@@ -11,12 +11,11 @@ CMakeFiles/website_metering.dir/src/server.cpp.o: src/dependencies/Scheduler/Cro
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/dependencies/Scheduler/InterruptableSleep.h
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/dependencies/Scheduler/Scheduler.h
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/file.hpp
-CMakeFiles/website_metering.dir/src/server.cpp.o: src/helpers/time_helper.hpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/messages/server_init_message.hpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/parsers/input_parser.hpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/server.cpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/server.hpp
-CMakeFiles/website_metering.dir/src/server.cpp.o: src/structs/agregate.hpp
+CMakeFiles/website_metering.dir/src/server.cpp.o: src/structs/aggregate.hpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/structs/cron_website.hpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/structs/curl_response.hpp
 CMakeFiles/website_metering.dir/src/server.cpp.o: src/structs/timeframe.hpp

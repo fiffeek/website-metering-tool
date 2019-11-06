@@ -12,8 +12,7 @@ CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o
  /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/Cron.h
  /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/InterruptableSleep.h
  /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/Scheduler.h
- /home/fiffeek/Desktop/website-metering/src/helpers/time_helper.hpp
- /home/fiffeek/Desktop/website-metering/src/structs/agregate.hpp
+ /home/fiffeek/Desktop/website-metering/src/structs/aggregate.hpp
  /home/fiffeek/Desktop/website-metering/src/structs/curl_response.hpp
  /home/fiffeek/Desktop/website-metering/src/structs/timeframe.hpp
  /home/fiffeek/Desktop/website-metering/tests/alerting_test.cpp

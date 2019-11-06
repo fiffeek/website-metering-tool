@@ -11,8 +11,7 @@ CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/dependencies/FakeIt/
 CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/dependencies/Scheduler/Cron.h
 CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/dependencies/Scheduler/InterruptableSleep.h
 CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/dependencies/Scheduler/Scheduler.h
-CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/helpers/time_helper.hpp
-CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/structs/agregate.hpp
+CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/structs/aggregate.hpp
 CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/structs/curl_response.hpp
 CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: src/structs/timeframe.hpp
 CMakeFiles/alerting_test.dir/tests/alerting_test.cpp.o: tests/alerting_test.cpp

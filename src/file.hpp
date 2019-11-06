@@ -1,5 +1,5 @@
-#ifndef SIK_ZAD2_FILE_HPP
-#define SIK_ZAD2_FILE_HPP
+#ifndef WEBSITE_METERING_FILE_HPP
+#define WEBSITE_METERING_FILE_HPP
 
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
@@ -38,4 +38,4 @@ namespace datadog::common {
     };
 }
 
-#endif //SIK_ZAD2_FILE_HPP
+#endif //WEBSITE_METERING_FILE_HPP

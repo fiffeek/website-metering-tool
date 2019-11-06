@@ -19,10 +19,8 @@ unordered_map
 /home/fiffeek/Desktop/website-metering/src/structs/curl_response.hpp
 ../structs/timeframe.hpp
 /home/fiffeek/Desktop/website-metering/src/structs/timeframe.hpp
-../helpers/time_helper.hpp
-/home/fiffeek/Desktop/website-metering/src/helpers/time_helper.hpp
-../structs/agregate.hpp
-/home/fiffeek/Desktop/website-metering/src/structs/agregate.hpp
+../structs/aggregate.hpp
+/home/fiffeek/Desktop/website-metering/src/structs/aggregate.hpp
 ../dependencies/Scheduler/Scheduler.h
 /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/Scheduler.h
 ../const.hpp
@@ -328,13 +326,7 @@ InterruptableSleep.h
 Cron.h
 /home/fiffeek/Desktop/website-metering/src/dependencies/Scheduler/Cron.h
 
-/home/fiffeek/Desktop/website-metering/src/helpers/time_helper.hpp
-cstdint
--
-../structs/curl_response.hpp
-/home/fiffeek/Desktop/website-metering/src/structs/curl_response.hpp
-
-/home/fiffeek/Desktop/website-metering/src/structs/agregate.hpp
+/home/fiffeek/Desktop/website-metering/src/structs/aggregate.hpp
 cstdint
 -
 unordered_map
@@ -361,8 +353,8 @@ ctime
 /home/fiffeek/Desktop/website-metering/src/structs/timeframe.hpp
 cstdint
 -
-agregate.hpp
-/home/fiffeek/Desktop/website-metering/src/structs/agregate.hpp
+aggregate.hpp
+/home/fiffeek/Desktop/website-metering/src/structs/aggregate.hpp
 
 /home/fiffeek/Desktop/website-metering/tests/alerting_test.cpp
 catch2/catch.hpp

@@ -6,7 +6,7 @@
 #define WEBSITE_METERING_TIMEFRAME_HPP
 
 #include <cstdint>
-#include "agregate.hpp"
+#include "aggregate.hpp"
 
 namespace datadog::structs {
     struct timeframe {
