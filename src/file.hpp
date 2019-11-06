@@ -28,7 +28,6 @@ namespace datadog::common {
 
             while (std::getline(infile, line)) {
                 res.emplace_back(line);
-                std::cout << line << std::endl;
             }
 
             return res;

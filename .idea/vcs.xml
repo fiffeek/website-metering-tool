@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/dependencies/CTPL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/dependencies/Catch2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/dependencies/FakeIt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/dependencies/Scheduler" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/dependencies/cpr" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/dependencies/cpr/opt/curl" vcs="Git" />
